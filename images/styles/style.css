@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+.primary-btn {
+    height: 60px;
+    color: white;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    padding: 0px 36px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.primary-btn:hover {
+    transform: scale(1.07);
+
+}
+.primary-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.primary-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.primary-subtitle {
+    font-weight: 600;
+    font-size: 45px;
+    color: #1e1111;
+    margin: 0px 0;
+}
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* nav style start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px 0px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 500px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home:hover {
+    transform: scale(1.3);
+    filter: none;
+}
+
+.about:hover {
+    transform: scale(1.3);
+    filter: none;
+}
+
+.login:hover {
+    transform: scale(1.3);
+    filter: none;
+}
+.contact:hover {
+    transform: scale(1.3);
+    filter: none
+}
+/* nav end */
+
+/* banner start */
+
+.banner-text {
+    margin: 0px 250px 50px;
+    text-align: center;
+
+}
+
+.banner-pic {
+    margin: 50px 200px 50px;
+    text-align: center;
+
+}
+
+.banner-pic img {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    color: #131313;
+    margin-top: 60px;
+}
+
+.banner-desc {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 60px 15px 60px;
+}
+
+/* banner end */
+
+
+/* team work  section start */
+main {
+    margin: 0px 200px;
+}
+
+.team-work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 60px;
+    margin-top: 51px;
+}
+
+.team-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 14px;
+    column-gap: 14px;
+    width: 70%;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #935f5f;
+}
+
+.black-of-our {
+    color: #131313;
+    font-weight: 700;
+
+}
+
+.orange-feature {
+    font-weight: 700;
+    color: hsla(48, 94%, 41%, 0.91);
+    ;
+
+}
+
+/* features description section start  */
+
+.features-desc {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    align-items: start;
+}
+
+.features-info h2 {
+    border-left: 5px solid hsl(32, 100%, 53%);
+    padding-left: 26px;
+    margin-top: 0;
+}
+
+
+.features-pic img {
+    width: 100%;
+
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feature {
+    margin-top: 10px;
+    width: 586px;
+    height: 171px;
+    background: hwb(0 100% 0%);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 0;
+    height: 150px;
+    width: 500px;
+}
+
+.experience {
+    position: relative;
+    top: -64px;
+}
+
+/* features description section style end  */
+
+
+/* some facts and performance style start */
+.some-fact h2 {
+    margin-bottom: 25px;
+}
+
+.some-fact p {
+    padding-right: 500px;
+}
+
+.performances {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.performance-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    gap: 100px;
+}
+
+.performances>h1 {
+    margin: 30px 0 80px 0;
+}
+
+.performances {
+    margin-bottom: 0px;
+}
+
+.performance {
+    border: 3px solid rgb(255, 144, 14);
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.performance:hover {
+    transform: scale(1.2);
+}
+
+.performance img {
+    transition: transform 1s ease-in 0s;
+}
+
+.performance:hover img {
+    transform: rotate(360deg);
+}
+
+/* some facts and performance style end */
+
+/* team-member section style start */
+
+
+.team-member {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.team-member-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 100px;
+}
+
+.team-members>h1 {
+    margin: 30px 0 80px 0;
+}
+
+.team-members {
+    margin-bottom: 0px;
+}
+
+.team-member {
+    border: 3px solid hsl(133, 36%, 56%);
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.team-member:hover {
+    transform: scale(1.1);
+    background-color: hwb(32 5% 0%);
+    opacity: 0.9;
+}
+
+.team-member img {
+    width: 100%;
+}
+.team-member p {
+    margin: 20px 10px 10px;
+    padding: 0px;
+}
+
+.team-members h2 {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.team-member img {
+    transition: transform 1s linear 0s;
+}
+
+/* team-member section end */
+
+/*  sponsors section start */
+
+.sponsors-text {
+    text-align: center;
+    padding: 0px 300px;
+}
+
+.sponsors-list {
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+
+.sponsor {
+    margin: 40px 0;   
+    display: flex;
+    align-items: center;
+    }
+
+
+.sponsor:hover img {
+    transform: scale(1.2);
+    filter: none;
+}
+
+.sponsor img {
+    filter: grayscale(90%);
+}
+
+/* our sponsors section end */
+
+/* footer style start */
+
+.footer {
+    margin-top: 50px;
+    background-color: hwb(33 91% 0%);
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* footer end */
+
+
+@media screen and (max-width:570px) {
+    main {
+        margin: 0px 50px;
+    }
+
+    /* nav start */
+    .nav-h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 50px 0;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin-left: 0px;
+        padding: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+
+
+    .contact:hover {
+        transform: scale(1.2);
+        filter: none;
+    }
+
+
+
+    /* nav style end */
+
+
+    /* banner style start */
+    .banner-text {
+        margin: 0px 50px 50px;
+        text-align: center;
+    }
+
+    .banner-pic {
+        margin: 30px 0px 30px;
+        text-align: center;
+    }
+
+    .banner-pic img {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 44px;
+        margin-top: 10px;
+    }
+
+    .banner-desc {
+        padding: 0px 20px 15px 20px;
+    }
+
+    /* banner style end */
+    /* team work  section start */
+
+    .team-work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 31px;
+    }
+
+    .team-photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    /* team work  section end */
+
+
+
+    /* features description section style start  */
+
+    .features-desc {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .features-info h2 {
+        border-left: 3px solid #FF900E;
+        padding-left: 15px;
+        margin-top: 0;
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    .f-desc {
+        text-align: left;
+        padding: 0 10px 10px;
+        margin-bottom: 10px;
+    }
+
+    .features-pic img {
+        width: 100%;
+
+    }
+
+    .features-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .feature {
+        margin-top: 10px;
+        padding: 0 20px 0 20px;
+        margin-bottom: 10px;
+        height: 200px;
+        width: 250px;
+    }
+
+    .experience {
+        position: relative;
+        top: -64px;
+    }
+    /* features description section  end  */
+
+    /* some facts and performance  start */
+    .some-fact-h2 {
+        text-align: center;
+        margin-bottom: 0px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .some-fact p {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .performances {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .performance-list {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .performance {
+        padding: 10px;
+    }
+    .performance:hover {
+        transform: scale(1.04);
+    }
+     /* some facts and performance style end */
+
+   
+    /* sponsors section */
+    .sponsors-text {
+        text-align: center;
+        padding: 0px 0px;
+        margin-bottom: 30px;
+    }
+    .sponsors-list {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .sponsor {
+        margin: 30px 0;
+    }   
+}
+/* end of sponsors section */
+
+
+/* Happy Coding  */
